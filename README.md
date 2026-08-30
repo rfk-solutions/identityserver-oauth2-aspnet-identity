@@ -121,7 +121,7 @@ Run all three projects concurrently.
 The solution is divided into domain-specific boundaries:
 
 * **`EswatiniEmployees.IDP`**: The Duende IdentityServer host. Manages users, issues tokens, provides login/consent pages, and handles Google external logins.
-* **`EswatiniEmployees.Client`**: The front-end ASP.NET Core web application (Visual Studio view shown in `Screenshot 2026-08-30 082518.png`). Uses OpenID Connect to authenticate users via the IDP and calls the API using a captured Access Token.
+* **`EswatiniEmployees.Client`**: The front-end ASP.NET Core web application. Uses OpenID Connect to authenticate users via the IDP and calls the API using a captured Access Token.
 * **`EswatiniEmployees`**: The secure Resource API. Validates incoming JWT Bearer tokens and requires specific policies (e.g., `RequireClaim("country", "Eswatini")`).
 * **`EmailService`**: A reusable class library containing the `IEmailSender` implementation for routing validation emails.
 
