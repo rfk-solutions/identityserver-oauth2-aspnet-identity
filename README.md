@@ -54,8 +54,8 @@ Open `appsettings.json` in the **EswatiniEmployees.IDP** project and configure y
 ```json
 {
   "ConnectionStrings": {
-    "sqlConnection": "server=.; database=CompanyEmployee01OAuth; Integrated Security=true; TrustServerCertificate=true",
-    "identitySqlConnection": "server=.; database=CompanyEmployee01OAuthIdentity; Integrated Security=true; TrustServerCertificate=true"
+    "sqlConnection": "server=.; database=EswatiniEmployee01OAuth; Integrated Security=true; TrustServerCertificate=true",
+    "identitySqlConnection": "server=.; database=EswatiniEmployee01OAuthIdentity; Integrated Security=true; TrustServerCertificate=true"
   }
 }
 ```
