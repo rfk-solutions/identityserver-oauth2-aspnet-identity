@@ -9,6 +9,13 @@ A comprehensive, production-ready OAuth 2.0 and OpenID Connect (OIDC) implementa
 
 ---
 
+## 🌐 Live Demo
+
+**[View Live API Demo](https://eswatini-employees-client-fyfdd5d5djfee4a7.southafricanorth-01.azurewebsites.net)**
+
+> The demo is hosted on Microsoft Azure.
+---
+
 ## ✨ Features
 
 * ⚡ **Duende IdentityServer Configuration:** Fully configured for OIDC and OAuth 2.0.
